@@ -1,0 +1,8 @@
+
+.collapse {
+  display:none;
+}
+
+.collapse.open{
+  display: block;
+}
