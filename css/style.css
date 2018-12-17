@@ -6,3 +6,27 @@
 .collapse.open{
   display: block;
 }
+
+svg.pie-chart circle {
+    fill: #f1f6fc;
+    stroke: #425791;
+}
+svg.pie-chart {
+    display: block;
+    margin: auto;
+    overflow: visible!important;
+}
+
+.pie_chart_partial, .pie_chart_half {
+    width: 11px;
+    height: 11px;
+    display: inline-block;
+    position: relative!important;
+    display: inline-block;
+}
+
+.pie_chart_half{
+  position: absolute;
+  top: 12px;
+}
+

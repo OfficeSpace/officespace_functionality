@@ -12,7 +12,6 @@ get_header(); ?>
     <article id="post-<?php the_ID(); ?>" <?php post_class(); ?>>
       <div class="no-sidebar-content">
 
-        <?php the_title( '<h1 class="entry-title">', '</h1>' ); ?>
         <?php twentyseventeen_edit_link( get_the_ID() ); ?>
         <?php
           the_content();

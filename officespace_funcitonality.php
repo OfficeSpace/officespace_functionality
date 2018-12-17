@@ -17,6 +17,7 @@ foreach( $include_array as $file ){
 
 function officespace_add_js(){
   wp_enqueue_script( 'officespace_accordion', plugins_url( 'js/accordion.js', __FILE__ ), ['jquery'] );
+  wp_enqueue_script( 'officespace_pie_icon', plugins_url( 'js/pie_icon_make.js', __FILE__ ), ['jquery'] );
 }
 
 add_action('wp_enqueue_scripts', 'officespace_add_js');

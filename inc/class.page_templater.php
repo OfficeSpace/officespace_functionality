@@ -49,7 +49,7 @@ class PageTemplater {
     );
 
     $this->templates = array(
-      'templates/no_sidebar.php' => "One Column"
+      'templates/no_sidebar.php' => "One Column (no displayed title)"
     );
 
     add_filter('page_template', array($this, 'page_template_ensure'));
